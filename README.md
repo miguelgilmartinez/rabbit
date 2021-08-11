@@ -17,7 +17,7 @@ Tons of thanks to Luka Gado for his [tutorial](https://medium.com/q-software/sym
 composer require php-amqplib/rabbitmq-bundle
 composer require annotations
 
-# This below if for creating random data.
+# This below only for creating random data.
 # Do not use this for production.
 composer require fzaninotto/faker
 ```
