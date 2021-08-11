@@ -1,0 +1,1 @@
+https://medium.com/q-software/symfony-and-rabbitmq-86b14dd604b1
