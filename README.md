@@ -4,6 +4,8 @@ This microservice designed as a Rabbit microservice skeleton for newbies.
 Deploy your RabbitMQ server and run this project.
 You can copy this proyect to your local machine twice in two separate directories and run one as a client and the other as a server.
 
+Tons of thanks to Luka Gado for his [tutorial](https://medium.com/q-software/symfony-and-rabbitmq-86b14dd604b1)
+
 ## Responsibilities
 
 1. Send AMQP messages to a RabbitMQ server.
