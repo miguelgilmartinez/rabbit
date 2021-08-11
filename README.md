@@ -39,10 +39,6 @@ RABBITMQ_URL=amqp://guest:guest@localhost:5672
 5. MessageService: It's the one which creates and sends the messages. It's called by MessageController.
 6. Run consumer with `bin/console rabbitmq:consumer messaging`, where `messaging` is the name of the queue.
 
-   
-
-
-
 ## My feelings
 
 After weeks of learning the "official" Symfony and RabbitMQ way, I realized that it is the simplest and fastest way to code microservices in Symfony. It took me a couple of hours to get two microservices sharing simple JSON messages.
