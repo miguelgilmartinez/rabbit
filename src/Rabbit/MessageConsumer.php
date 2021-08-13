@@ -11,7 +11,7 @@ class MessageConsumer implements ConsumerInterface
     public function execute(AMQPMessage $msg)
     {
         $message = json_decode($msg->body, true);
-        echo 'Received a message from ' . $message['sender']. "\n";
+        echo 'Received a message: ' . json_encode($message) . "\n";
         
     }
 }
